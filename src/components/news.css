@@ -1,0 +1,9 @@
+.news {
+  height: 81.5vh;
+}
+
+@media only screen and (max-width: 390px) {
+  .news {
+    height: 67.5vh;
+  }
+}

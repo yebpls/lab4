@@ -1,0 +1,30 @@
+.card1 {
+  position: relative;
+  height: 610px;
+  padding: 15px;
+}
+
+.card1 .red {
+  position: absolute;
+  top: 66%;
+}
+
+.card1 .card-image {
+  height: 400px;
+}
+
+.card1 .card-image img {
+  height: 100%;
+}
+
+@media only screen and (max-width: 390px) {
+  .card1 {
+    padding: 0;
+  }
+  .card1 .red {
+    top: 30%;
+  }
+  .card1 .card-image {
+    height: 200px;
+  }
+}
